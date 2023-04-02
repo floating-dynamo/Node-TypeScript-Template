@@ -1,10 +1,10 @@
-import express, {Request, Response} from "express";
+import express, {NextFunction, Request, Response} from "express";
 
 const app = express();
 
 const PORT = 8080 || process.env.PORT;
 
-app.use((req: Request, res: Response, next)=>{
+app.use((req: Request, res: Response, next: NextFunction)=>{
     console.log(req.method, req.path)
 
     next();
