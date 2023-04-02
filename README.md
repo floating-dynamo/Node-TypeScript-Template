@@ -8,6 +8,6 @@
 - npm init -y
 - npm i tsc ts-node @types/node--save-dev
 - tsc --init
-- npm i express
+- npm i express mongoose
 - npm i @types/express nodemon --save-dev
 - Inside package.json -> scripts -> "dev": "nodemon src/index.ts"
