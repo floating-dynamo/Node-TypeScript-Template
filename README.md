@@ -2,9 +2,7 @@
 
 ## Setting up the Project from scratch
 - npm init -y
-- npm i tsc --save-dev
-- npm i ts-node --save-dev
-- npm i @types/node --save-dev
+- npm i tsc ts-node @types/node--save-dev
 - tsc --init
 - npm i express
 - npm i @types/express nodemon --save-dev
