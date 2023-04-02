@@ -1,5 +1,5 @@
 import express, {NextFunction, Request, Response} from "express";
-import noteRouter from "./routes/note"
+import noteRouter from "./routers/note"
 
 const app = express();
 
